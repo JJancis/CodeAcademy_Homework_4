@@ -1,0 +1,32 @@
+table {
+  border-collapse: separate;
+  border-spacing: 50px;
+  min-width: 600px;
+  margin: auto;
+}
+div,
+p {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+}
+td,
+tr {
+  width: 200px;
+  height: 200px;
+}
+td {
+  background-color: #f05712;
+  border: 10px solid #2cd64d;
+}
+div {
+  background-color: #f05712;
+}
+p {
+  background-color: #2cd64d;
+}
+tr:nth-of-type(odd) td:nth-of-type(odd),
+tr:nth-of-type(even) td:nth-of-type(even) {
+  border: 10px solid #f05712;
+  background-color: #2cd64d;
+}

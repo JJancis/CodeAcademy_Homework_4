@@ -1,0 +1,35 @@
+* {
+  font-family: jetbrains mono;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  margin: 50px auto;
+}
+td,
+th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 5px;
+}
+td {
+  width: 180px;
+  font-weight: 500;
+}
+th {
+  width: 280px;
+  font-weight: 800;
+}
+
+#oranžinė {
+  background-color: #fea500;
+  color: white;
+}
+#mėlyna {
+  background-color: #4f4fff;
+  color: white;
+}
+#žalia {
+  background-color: #16c03b;
+  color: white;
+}
